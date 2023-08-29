@@ -1,0 +1,8 @@
+# ignore xml, iml and pyc
+
+*.pyc
+*.xml
+*.iml
+
+# ignore .idea folder
+.idea/
