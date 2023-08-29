@@ -11,8 +11,6 @@ client = commands.Bot(command_prefix="*", intents=intents, case_insensitive=True
 
 load_dotenv()
 
-# test
-
 current_url = ""
 url = f"https://newsdata.io/api/1/news?apikey={os.getenv('NEWSAPI')}&country=fr,de,in,gb,us&language=en&category=science,technology"
 
